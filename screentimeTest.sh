@@ -3,5 +3,5 @@ echo "Starting point ==================================>" $(date) >> tempdate.tx
 while [ true ] 
 do
 echo $(date) >>tempdate.txt
-sleep 1
+sleep 60
 done
