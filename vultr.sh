@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ### Running a script without downloading ############
-## wget -O - http://dl.dropbox.com/u/11210438/flockonus-stack.sh | bash ###
+## wget -O - https://raw.githubusercontent.com/ksjk2165/bb/main/vultr.sh | bash ###
 
 ./ubuntuToKali.sh
 
