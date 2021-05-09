@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
 
-## update and upgrade
+### Running a script without downloading ############
+## wget -O - http://dl.dropbox.com/u/11210438/flockonus-stack.sh | bash ###
 
-sudo apt update
-sudo apt upgrade -y
-sudo apt install xorg
-sudo apt install screen
+./ubuntuToKali.sh
 
+#sudo apt install -y wfuzz --need to replace with ffuf
 
-## nuclei
+sudo apt install -y masscan
 
-mkdir nucleiDir
+sudo apt install -y nmap
 
-wget https://github.com/projectdiscovery/nuclei/releases/download/v2.3.7/nuclei_2.3.7_linux_amd64.tar.gz
-tar -xzvf nuclei_2.3.7_linux_amd64.tar.gz
-mv nuclei nucleiDir/
+sudo apt install -y tree
+
+sudo apt install -y screen
+
+sudo apt install -y ffuf
