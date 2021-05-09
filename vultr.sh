@@ -1,18 +1,21 @@
 #!/usr/bin/env bash
 
+## update and upgrade
+
+sudo apt update
+sudo apt upgrade -y
+
 ### Running a script without downloading ############
 ## wget -O - https://raw.githubusercontent.com/ksjk2165/bb/main/vultr.sh | bash ###
 
-./ubuntuToKali.sh
+sudo apt install xorg -y
+sudo apt install screen -y
 
-#sudo apt install -y wfuzz --need to replace with ffuf
 
-sudo apt install -y masscan
+## nuclei
 
-sudo apt install -y nmap
+mkdir nucleiDir
 
-sudo apt install -y tree
-
-sudo apt install -y screen
-
-sudo apt install -y ffuf
+wget https://github.com/projectdiscovery/nuclei/releases/download/v2.3.7/nuclei_2.3.7_linux_amd64.tar.gz
+tar -xzvf nuclei_2.3.7_linux_amd64.tar.gz
+mv nuclei nucleiDir/
