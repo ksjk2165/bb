@@ -8,10 +8,9 @@ sudo apt upgrade -y
 ### Running a script without downloading ############
 ## wget -O - https://raw.githubusercontent.com/ksjk2165/bb/main/vultr.sh | bash ###
 
-sudo apt install xorg -y
-sudo apt install screen -y
-
-
+apt install xorg -y
+apt install screen -y
+apt install chromium
 ## nuclei
 
 mkdir nucleiDir
