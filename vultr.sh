@@ -10,7 +10,7 @@ sudo apt upgrade -y
 
 apt install xorg -y
 apt install screen -y
-apt install chromium
+apt install chromium -y
 ## nuclei
 
 mkdir nucleiDir
