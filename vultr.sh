@@ -12,6 +12,7 @@ apt install xorg -y
 apt install screen -y
 apt install chromium -y
 apt install git -y
+apt install python3-pip -y
 
 ## nuclei
 
