@@ -11,6 +11,8 @@ sudo apt upgrade -y
 apt install xorg -y
 apt install screen -y
 apt install chromium -y
+apt install git -y
+
 ## nuclei
 
 mkdir nucleiDir
